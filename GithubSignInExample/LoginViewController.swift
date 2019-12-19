@@ -148,7 +148,7 @@ extension LoginViewController: WKNavigationDelegate {
                 // AccessToken
                 print("GitHub Access Token: \(accessToken)")
                 self.githubAccessToken = accessToken
-                // GitHub Handle
+                // GitHub Id
                 let githubId: Int! = (result?["id"] as! Int)
                 print("GitHub Id: \(githubId ?? 0)")
                 self.githubId = githubId
