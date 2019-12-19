@@ -162,7 +162,7 @@ extension LoginViewController: WKNavigationDelegate {
                 self.githubEmail = githubEmail
                 // GitHub Profile Avatar URL
                 let githubAvatarURL: String! = (result?["avatar_url"] as! String)
-                print("github Profile Avatar URL: \(githubAvatarURL ?? "")")
+                print("Github Profile Avatar URL: \(githubAvatarURL ?? "")")
                 self.githubAvatarURL = githubAvatarURL
                 DispatchQueue.main.async {
                     self.performSegue(withIdentifier: "detailseg", sender: self)
