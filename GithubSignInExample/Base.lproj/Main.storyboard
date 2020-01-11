@@ -41,6 +41,7 @@
                     <navigationItem key="navigationItem" title="GithubSignInExample" id="o9P-NG-w68"/>
                     <connections>
                         <outlet property="githubLoginBtn" destination="QjQ-5G-iFL" id="Xr2-me-XA4"/>
+                        <segue destination="G7L-Kj-71t" kind="show" identifier="detailseg" id="6p0-u4-Xk3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -75,11 +76,11 @@
             <objects>
                 <viewController id="G7L-Kj-71t" customClass="DetailsViewController" customModule="GithubSignInExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2Z-dX-jXj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bm1-5b-UlA">
-                                <rect key="frame" x="10" y="212" width="394" height="482.5"/>
+                                <rect key="frame" x="10" y="146" width="394" height="482.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6h-RT-thL">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="27.5"/>
